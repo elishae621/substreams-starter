@@ -1,0 +1,5 @@
+type MyEntity @entity(immutable: true) {
+    id: ID!
+    from: String
+    to: String
+}
